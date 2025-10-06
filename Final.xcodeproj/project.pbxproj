@@ -11,6 +11,16 @@
 		E73D86C12E92E9C1007701D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86C02E92E9C1007701D7 /* ContentView.swift */; };
 		E73D86C32E92E9C5007701D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73D86C22E92E9C5007701D7 /* Assets.xcassets */; };
 		E73D86C62E92E9C5007701D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73D86C52E92E9C5007701D7 /* Preview Assets.xcassets */; };
+		E73D86CD2E92F2EB007701D7 /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86CC2E92F2EB007701D7 /* GameStore.swift */; };
+		E73D86CF2E92F3A0007701D7 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86CE2E92F3A0007701D7 /* PrimaryButtonStyle.swift */; };
+		E73D86D12E92F795007701D7 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86D02E92F795007701D7 /* ColorExtensions.swift */; };
+		E73D86D32E92FA5E007701D7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86D22E92FA5E007701D7 /* SplashScreen.swift */; };
+		E73D86D52E92FB24007701D7 /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86D42E92FB24007701D7 /* Achievements.swift */; };
+		E73D86D72E92FBBB007701D7 /* AchievementModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86D62E92FBBB007701D7 /* AchievementModal.swift */; };
+		E73D86D92E92FC33007701D7 /* PowerUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86D82E92FC33007701D7 /* PowerUps.swift */; };
+		E73D86DB2E931407007701D7 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D86DA2E931407007701D7 /* ScoreView.swift */; };
+		E75B75CE2E9332DE00878225 /* AchievementButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B75CD2E9332DE00878225 /* AchievementButtonView.swift */; };
+		E75B75D02E93349E00878225 /* UpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B75CF2E93349E00878225 /* UpgradesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		E73D86C02E92E9C1007701D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E73D86C22E92E9C5007701D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E73D86C52E92E9C5007701D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E73D86CC2E92F2EB007701D7 /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
+		E73D86CE2E92F3A0007701D7 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		E73D86D02E92F795007701D7 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		E73D86D22E92FA5E007701D7 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E73D86D42E92FB24007701D7 /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
+		E73D86D62E92FBBB007701D7 /* AchievementModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementModal.swift; sourceTree = "<group>"; };
+		E73D86D82E92FC33007701D7 /* PowerUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUps.swift; sourceTree = "<group>"; };
+		E73D86DA2E931407007701D7 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		E75B75CD2E9332DE00878225 /* AchievementButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementButtonView.swift; sourceTree = "<group>"; };
+		E75B75CF2E93349E00878225 /* UpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,16 @@
 		E73D86BD2E92E9C1007701D7 /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				E75B75CF2E93349E00878225 /* UpgradesView.swift */,
+				E75B75CD2E9332DE00878225 /* AchievementButtonView.swift */,
+				E73D86DA2E931407007701D7 /* ScoreView.swift */,
+				E73D86D82E92FC33007701D7 /* PowerUps.swift */,
+				E73D86D62E92FBBB007701D7 /* AchievementModal.swift */,
+				E73D86D42E92FB24007701D7 /* Achievements.swift */,
+				E73D86D22E92FA5E007701D7 /* SplashScreen.swift */,
+				E73D86D02E92F795007701D7 /* ColorExtensions.swift */,
+				E73D86CE2E92F3A0007701D7 /* PrimaryButtonStyle.swift */,
+				E73D86CC2E92F2EB007701D7 /* GameStore.swift */,
 				E73D86BE2E92E9C1007701D7 /* FinalApp.swift */,
 				E73D86C02E92E9C1007701D7 /* ContentView.swift */,
 				E73D86C22E92E9C5007701D7 /* Assets.xcassets */,
@@ -137,8 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73D86D92E92FC33007701D7 /* PowerUps.swift in Sources */,
+				E73D86D32E92FA5E007701D7 /* SplashScreen.swift in Sources */,
+				E73D86D52E92FB24007701D7 /* Achievements.swift in Sources */,
+				E73D86CF2E92F3A0007701D7 /* PrimaryButtonStyle.swift in Sources */,
+				E73D86D12E92F795007701D7 /* ColorExtensions.swift in Sources */,
 				E73D86C12E92E9C1007701D7 /* ContentView.swift in Sources */,
+				E73D86CD2E92F2EB007701D7 /* GameStore.swift in Sources */,
+				E75B75CE2E9332DE00878225 /* AchievementButtonView.swift in Sources */,
 				E73D86BF2E92E9C1007701D7 /* FinalApp.swift in Sources */,
+				E73D86D72E92FBBB007701D7 /* AchievementModal.swift in Sources */,
+				E73D86DB2E931407007701D7 /* ScoreView.swift in Sources */,
+				E75B75D02E93349E00878225 /* UpgradesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
